@@ -108,6 +108,23 @@
           
               <fieldset class="newsletter">
               <legend>Newsletter</legend>
+
+              <label>Select the newsletters you would like to recieve</label>
+              <input type="checkbox" id="html" value="html" name="newletter_type"><label for="html" class="inline-label">HTML News</label>
+              
+              <input type="checkbox" id="css" value="css" name="newletter_type"><label for="css" class="inline-label">CSS News</label>
+              
+              <input type="checkbox" id="js" value="js" name="newletter_type"><label for="js" class="inline-label">Javascript News</label>
+              
+
+              <label>Newsletter format</label>
+              <input type="radio" id="html_format" value="html_format" name="newsletter_format"><label for="html_format" class="inline-label">HTML</label>
+              
+              <input type="radio" id="plain_format" value="plain_format" name="newsletter_format"><label for="plain_format" class="inline-label">Plain text</label>
+
+              <label for="topics">Other topics you'd like to hear about</label>
+              <textarea id="topics" name="user_topics"></textarea>
+
               </fieldset>
 
               <button type="submit">Sign Up</button>
