@@ -4,7 +4,7 @@
 	box-sizing: border-box;
 }
 
-h1, h2 , p {
+h1, h2 , p , button {
 	font-family: 'Merriweather', serif;
 }
 
@@ -40,6 +40,11 @@ header {
   height: 1.5px;
   width: 100%;
   margin-bottom: 30px;
+}
+
+button {
+	color: #fff;
+	background-color: #4ebbb5;
 }
 
 footer p {
