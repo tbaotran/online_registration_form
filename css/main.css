@@ -1,0 +1,58 @@
+/* /css/main.css */
+
+* {
+	box-sizing: border-box;
+}
+
+h1, h2 , p {
+	font-family: 'Merriweather', serif;
+}
+
+header {
+	padding: 1em 0;
+	background-color: #2d3945;
+	text-align: center;
+	color: #fff;
+}
+
+.main-container {
+	width: 95%;
+	margin: 0 auto;
+	background-color: #fff;
+	padding: 0 2.5%;
+}
+
+.title-container {
+	text-align: center;
+	margin: 3em 0;
+}
+
+
+.thick-hr {
+  background-color: black;
+  height: 4px;
+  width: 100%;
+  margin: 3px 0;
+}
+.thin-hr {
+  margin: 3px 0;
+  background-color: black;
+  height: 1.5px;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+footer p {
+	text-align: center;
+	font-style: italic;
+}
+
+/*Media Queries mobile first https://css-tricks.com/logic-in-media-queries/ */
+@media (min-width: 760px) {
+
+	.main-container {
+		width: 90%;
+		max-width: 800px;
+		background-color: #fff;
+		padding: 2.5%;
+	}
