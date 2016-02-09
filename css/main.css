@@ -8,6 +8,16 @@ h1, h2 , p , button {
 	font-family: 'Merriweather', serif;
 }
 
+legend {
+	text-align: center;
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+p, label {
+	color: gray;
+}
+
 header {
 	padding: 1em 0;
 	background-color: #2d3945;
