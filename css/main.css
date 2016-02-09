@@ -4,7 +4,7 @@
 	box-sizing: border-box;
 }
 
-h1, h2 , p , button {
+h1, h2 , p , button , legend, label, select, textarea, input, .placeholder {
 	font-family: 'Merriweather', serif;
 }
 
@@ -23,6 +23,15 @@ header {
 	background-color: #2d3945;
 	text-align: center;
 	color: #fff;
+}
+
+fieldset {
+	border: none;
+	margin-top: 3em;
+}
+
+label {
+	display: block;
 }
 
 .main-container {
@@ -52,7 +61,10 @@ header {
   margin-bottom: 30px;
 }
 
-
+#zip {
+    margin-bottom: 70px;
+    width: 25%;
+}
 
 button {
 	color: #fff;
