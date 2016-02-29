@@ -122,6 +122,16 @@ textarea:focus {
 	background-color: #aeffac;
 }
 
+input:required:focus:invalid,
+input[type=url]:focus:invalid {
+	background-color: #ffc3c3;
+}
+
+input:required:focus:valid,
+input[type=url]:focus:valid {
+	background-color: #aeffac;
+}
+
 .placeholder::-webkit-input-placeholder {
 	text-align: right;
 	font-style: italic;
